@@ -14,7 +14,6 @@ def get_setting(setting_name):
 class WYMEditor(Textarea):
     class Media:
         js = [
-            '//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js',
             settings.STATIC_URL + 'wymeditor/wymeditor/jquery.wymeditor.js',
         ]
 
