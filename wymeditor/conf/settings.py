@@ -19,7 +19,7 @@ DEFAULT_WYM_TOOLS = ",\n".join([
     "{'name': 'InsertTable', 'title': 'Table', 'css': 'wym_tools_table'}",
     "{'name': 'Preview', 'title': 'Preview', 'css': 'wym_tools_preview'}",
 ])
-WYM_TOOLS = getattr(settings, 'WYMEDITOR_TOOLS', DEFAULT_WYM_TOOLS)
+WYM_TOOLS = getattr(settings, 'WYM_TOOLS', DEFAULT_WYM_TOOLS)
 
 DEFAULT_WYM_CONTAINERS = ",\n".join([
     "{'name': 'P', 'title': 'Paragraph', 'css': 'wym_containers_p'}",
@@ -27,7 +27,7 @@ DEFAULT_WYM_CONTAINERS = ",\n".join([
     "{'name': 'H2', 'title': 'Heading_2', 'css': 'wym_containers_h2'}",
     "{'name': 'H3', 'title': 'Heading_3', 'css': 'wym_containers_h3'}",
 ])
-WYM_CONTAINERS = getattr(settings, 'WYMEDITOR_CONTAINERS', DEFAULT_WYM_CONTAINERS)
+WYM_CONTAINERS = getattr(settings, 'WYM_CONTAINERS', DEFAULT_WYM_CONTAINERS)
 
 DEFAULT_WYM_CLASSES = ",\n".join([
     u"{'name': 'center-align', 'title': 'Align center', 'expr': 'p'}",
@@ -36,7 +36,7 @@ DEFAULT_WYM_CLASSES = ",\n".join([
     u"{'name': 'float-right', 'title': 'Float right', 'expr': 'p'}",
     u"{'name': 'float-left', 'title': 'Float left', 'expr': 'p'}",
 ])
-WYM_CLASSES = getattr(settings, 'WYMEDITOR_CLASSES', DEFAULT_WYM_CLASSES)
+WYM_CLASSES = getattr(settings, 'WYM_CLASSES', DEFAULT_WYM_CLASSES)
 
 DEFAULT_WYM_STYLES = ",\n".join([
     "{'name': '.center-align', 'css': 'text-align: center'}",
@@ -45,4 +45,4 @@ DEFAULT_WYM_STYLES = ",\n".join([
     "{'name': '.float-right', 'css': 'float: right'}",
     "{'name': '.float-left', 'css': 'float: left'}",
 ])
-WYM_STYLES = getattr(settings, 'WYMEDITOR_STYLES', DEFAULT_WYM_STYLES)
+WYM_STYLES = getattr(settings, 'WYM_STYLES', DEFAULT_WYM_STYLES)
