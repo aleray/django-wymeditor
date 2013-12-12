@@ -1,0 +1,3 @@
+recursive-include wymeditor/conf *
+recursive-include wymeditor/static *
+recursive-include wymeditor/templates *

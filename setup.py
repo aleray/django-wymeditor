@@ -9,5 +9,6 @@ setup(
         license = 'GPL',
         keywords = 'editor WYSIWYG',
         url = 'http://github.com/schepelin/django-wymeditor',
+        include_package_data = True,
         packages = ['wymeditor',]
     )
