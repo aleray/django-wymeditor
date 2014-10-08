@@ -15,6 +15,7 @@ class WYMEditor(Textarea):
     class Media:
         js = [
             settings.STATIC_URL + 'wymeditor/wymeditor/jquery.wymeditor.js',
+            settings.STATIC_URL + 'wymeditor/wymeditor/plugins/figure/jquery.wymeditor.figure.js',
         ]
 
     def __init__(self, attrs=None, skin='django'):
